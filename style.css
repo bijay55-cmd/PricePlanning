@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background:lightgrey;
+}
+main{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container{
+    text-align: center;
+    background: white;
+    width: 25%;
+    border-radius: 5px;
+}
+h1{
+    background: lightseagreen;
+    padding: 10px;
+    margin:0;
+    font-size: 20px;
+    color:white;
+    border-radius:5px 5px 0 0;
+}
+.bar{
+    background: silver;
+    width: 60%;
+    height: 5px;
+    margin: auto;
+}
+.bar2{
+    margin-top: 5px;
+    width: 50%;
+}
+.bar3{
+    margin-top: 5px;
+}
+.bar4{
+    margin-top: 5px;
+    width: 40%;
+    margin-bottom: 20px;
+}
+.price{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+section{
+    background: white;
+    margin:40px 10px;
+    padding-bottom: 20px;
+}
+
+.users{
+display: flex;
+justify-content: space-between;
+padding: 0 10px;
+}
+
+#barcontainer{
+    background:silver;
+    margin: 0 10px;
+    border-radius: 20px;
+}
+
+#userBar{
+    width:100%;
+    height: 10px;
+    background: green;
+    border-radius: 10px;
+}
+
+.gb{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+#gbbar{
+    width: 100%;
+    height: 10px;
+    background: green;
+    border-radius: 10px;
+}
+
+.project{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+#projectbar{
+    width: 100%;
+    height: 10px;
+    background: green;
+    border-radius: 10px;
+}
+
+.container1:hover {
+color: lightblue;
+box-shadow: 0 5px 5px 2px grey;
+cursor: pointer;
+transform: scale(1.05);
+transition:0.3s ease-out;
+}
+
+.container2:hover {
+    color:lightblue;
+box-shadow: 0 5px 5px 2px grey;
+cursor: pointer;
+transform: scale(1.05);
+transition:0.3s ease-out;
+}
+
+.container3:hover{
+    color:lightblue;
+transform: scale(1.05);
+box-shadow: 0 5px 5px 2px grey;
+cursor: pointer;
+transition:0.3s ease-out;
+}
+@media screen and (max-width:600px){
+    main{
+        font-size: 15px;
+    }
+    h1{
+        font-size: 15px;
+    }
+}
+@media screen and (min-width: 1440px){
+    .container{
+        width: 20%;
+    }
+    section{
+        width: 60%;
+        margin:50px auto;
+    }
+}
